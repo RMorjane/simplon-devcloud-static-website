@@ -12,43 +12,32 @@
 }
 
 .main-wrapper {
+    color: #E5E5E5;
     max-width: 1200px;
     max-height: 657px;
     width: 90%;
+    height: 90%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-}
-
-.div-text {
-    width: 500px;
-    height: 500px;
     background: #232323;
-    color: #E5E5E5;
 }
 
-.div-title {
-    width: 90%;
-    height: 90%;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    background: #232323;
-    color: white;
-    font-size: 50px;
-}
-
-p {
-    margin-left: 50px;
-    margin-right: auto;
-    margin-top: 50px;
+h1 {
     float: left;
-    text-align: left;
-    font-size: 13px;
-    background: #232323;
+    margin-left: 10px;
+    margin-bottom: 100px;
     color: #E5E5E5;
+    background: #232323;
+    font-size: 6ch;
+}
+
+h6 {
+    float: left;
+    color: #E5E5E5;
+    background: #232323; 
 }
 
 button {
@@ -57,13 +46,14 @@ button {
     height: 33px;
     color: #E5E5E5;
     background: #FE142F;
-    margin-top: 150px;
-    margin-right: 100px;
+    margin-top: 50px;
+    margin-left: 150px;
     border-radius: 0.5em;
     border-color: #FE142F;
 }
 
 img {
+    float: right;
     width: 700px;
     height: 500px;
     top: -8px;
@@ -161,36 +151,7 @@ img {
         box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
     }
 
-    .main-title {
-        background: #E5E5E5;
-        color: #000000;
-    }
-
-    .main-text {
-        width: 90%;
-        height: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 2em;
-        margin-bottom: 3em;
-        border-style: solid;
-        border-color: #FE142F;
-        line-height: 16.93px;
-    }
-
-    .main-image {
-        width: 545.82px;
-        height: 337.51px;
-        top: -4.01px;
-        left: -156.53px;
-    }
-    
-    img {
-        width: 90%;
-        height: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: auto;
-        margin-bottom: auto;
+    .main-wrapper {
+        display: block;
     }
 }
